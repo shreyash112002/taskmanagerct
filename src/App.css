@@ -1,0 +1,21 @@
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+
+.task-item span {
+  flex-grow: 1; 
+  margin-left: 10px; 
+}
+
+
+.task-item .completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
